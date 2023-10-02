@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bluetooth.communicatorexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:6:5-74
+12-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <application
+15-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:9:5-30:19
+16        android:name="com.bluetooth.communicatorexample.Global"
+16-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:10:9-64
+17        android:allowBackup="true"
+17-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.1] C:\Users\nehapc\.gradle\caches\transforms-2\files-2.1\ff37b710ecf84191a2687617c776753e\core-1.3.1\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:13:9-41
+23        android:largeHeap="true"
+23-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:14:9-33
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:15:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:16:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Speech" >
+27-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:17:9-44
+28        <activity
+28-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:18:9-20:40
+29            android:name="com.bluetooth.communicatorexample.login"
+29-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:19:13-34
+30            android:exported="false" />
+30-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:20:13-37
+31        <activity
+31-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:21:9-29:20
+32            android:name="com.bluetooth.communicatorexample.MainActivity"
+32-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:22:13-74
+33            android:configChanges="orientation|screenSize" >
+33-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:23:13-59
+34            <intent-filter>
+34-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:24:13-28:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:25:17-69
+35-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:25:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:27:17-77
+37-->C:\Users\nehapc\Desktop\Android\BluetoothCommunicatorExample-main\app\src\main\AndroidManifest.xml:27:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>
